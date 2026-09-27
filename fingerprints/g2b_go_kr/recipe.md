@@ -169,4 +169,5 @@ result = page.evaluate(f"""
 
 ## 참고 스크립트
 
-`output/g2b.go.kr/교량입찰공고_20260331_172006/crawl_script.py`
+- 재사용 스크립트(키워드 인자): `python scripts/g2b_bid_crawl.py 교량 --days 30` — 출력은 `output/g2b.go.kr/<키워드>_입찰공고_<ts>/`, 실행 후 profile.json notes 자동 누적
+- `output/g2b.go.kr/교량입찰공고_20260331_172006/crawl_script.py`
